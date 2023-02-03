@@ -25,3 +25,37 @@
   - [ ] [.NET MAUI を使用したエンタープライズ アプリケーション パターン](https://learn.microsoft.com/ja-jp/dotnet/architecture/maui/)
   - [ ] [.NET MAUI のサンプル](https://learn.microsoft.com/ja-jp/samples/browse/?expanded=dotnet&products=dotnet-maui)
   - [ ] [.NET MAUI ポッドキャスト](https://www.dotnetmauipodcast.com/)
+
+## 作業開始
+
+### Android
+
+#### エミューレータ
+
+- [x] [ハードウェア アクセラレーションを有効にする方法](https://learn.microsoft.com/ja-jp/dotnet/maui/android/emulator/hardware-acceleration?view=net-maui-7.0)
+- [x] [Android デバイス マネージャーを使用した仮想デバイスの管理](https://learn.microsoft.com/ja-jp/dotnet/maui/android/emulator/device-manager?view=net-maui-7.0)
+- [x] [Android 仮想デバイスのプロパティの編集](https://learn.microsoft.com/ja-jp/dotnet/maui/android/emulator/device-properties?view=net-maui-7.0)
+- [x] [Android Emulator でのデバッグ](https://learn.microsoft.com/ja-jp/dotnet/maui/android/emulator/debug-on-emulator?view=net-maui-7.0)
+- [x] [Android Emulator のトラブルシューティング](https://learn.microsoft.com/ja-jp/dotnet/maui/android/emulator/troubleshooting?view=net-maui-7.0)
+
+#### 物理デバイス
+
+- [x] [物理デバイスを設定する方法](https://learn.microsoft.com/ja-jp/dotnet/maui/android/device/setup?view=net-maui-7.0)
+
+### iOS
+
+- [ ] [Apple アカウントの管理](https://learn.microsoft.com/ja-jp/dotnet/maui/ios/apple-account-management?view=net-maui-7.0&tabs=vs)
+- [ ] [.NET CLI を使用して iOS アプリを構築する](https://learn.microsoft.com/ja-jp/dotnet/maui/ios/cli?view=net-maui-7.0)
+- [ ] [iOS 開発用に Mac とペアリングする](https://learn.microsoft.com/ja-jp/dotnet/maui/ios/pair-to-mac?view=net-maui-7.0)
+  #### 開発用にデバイスを設定する
+  - [ ] [iOS アプリの自動プロビジョニング](https://learn.microsoft.com/ja-jp/dotnet/maui/ios/device-provisioning/?view=net-maui-7.0)
+  - [ ] [iOS アプリの手動プロビジョニング](https://learn.microsoft.com/ja-jp/dotnet/maui/ios/device-provisioning/?view=net-maui-7.0)
+  
+  #### シュミレーター
+  - [ ] [Windows 用のリモート iOS シミュレーターを有効にする](https://learn.microsoft.com/ja-jp/dotnet/maui/ios/remote-simulator?view=net-maui-7.0)
+
+### macOS
+- [ ] [.NET CLI を使用して Mac Catalyst アプリを構築する](https://learn.microsoft.com/ja-jp/dotnet/maui/macos/cli?view=net-maui-7.0)
+
+### Windows
+- [x] [Windows で .NET MAUI アプリをデプロイしてデバッグする](https://learn.microsoft.com/ja-jp/dotnet/maui/windows/setup?view=net-maui-7.0)

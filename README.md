@@ -61,5 +61,8 @@
 - [x] [Windows で .NET MAUI アプリをデプロイしてデバッグする](https://learn.microsoft.com/ja-jp/dotnet/maui/windows/setup?view=net-maui-7.0)
 
 # チュートリアル
-- [ ] [.NET MAUI アプリを作成する](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-app/?view=net-maui-7.0)
+- [x] [.NET MAUI アプリを作成する](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-app/?view=net-maui-7.0)
+  - [x] [主なファイル構成の概要](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-app/?view=net-maui-7.0&tutorial-step=2)
+  - [x] [ページの追加、タブの追加](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-app/?view=net-maui-7.0&tutorial-step=2)
+  - [x] [メモのページを作成する](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-app/?view=net-maui-7.0&tutorial-step=3)
 - [ ] [MVVM の概念を使用してアプリをアップグレードする](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-mvvm/?view=net-maui-7.0)

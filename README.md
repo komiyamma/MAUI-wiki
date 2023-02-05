@@ -26,11 +26,11 @@
   - [ ] [.NET MAUI のサンプル](https://learn.microsoft.com/ja-jp/samples/browse/?expanded=dotnet&products=dotnet-maui)
   - [ ] [.NET MAUI ポッドキャスト](https://www.dotnetmauipodcast.com/)
 
-## 作業開始
+# 作業開始
 
-### Android
+## Android
 
-#### エミューレータ
+### エミューレータ
 
 - [x] [ハードウェア アクセラレーションを有効にする方法](https://learn.microsoft.com/ja-jp/dotnet/maui/android/emulator/hardware-acceleration?view=net-maui-7.0)
 - [x] [Android デバイス マネージャーを使用した仮想デバイスの管理](https://learn.microsoft.com/ja-jp/dotnet/maui/android/emulator/device-manager?view=net-maui-7.0)
@@ -38,24 +38,28 @@
 - [x] [Android Emulator でのデバッグ](https://learn.microsoft.com/ja-jp/dotnet/maui/android/emulator/debug-on-emulator?view=net-maui-7.0)
 - [x] [Android Emulator のトラブルシューティング](https://learn.microsoft.com/ja-jp/dotnet/maui/android/emulator/troubleshooting?view=net-maui-7.0)
 
-#### 物理デバイス
+### 物理デバイス
 
 - [x] [物理デバイスを設定する方法](https://learn.microsoft.com/ja-jp/dotnet/maui/android/device/setup?view=net-maui-7.0)
 
-### iOS
+## iOS
 
 - [ ] [Apple アカウントの管理](https://learn.microsoft.com/ja-jp/dotnet/maui/ios/apple-account-management?view=net-maui-7.0&tabs=vs)
 - [ ] [.NET CLI を使用して iOS アプリを構築する](https://learn.microsoft.com/ja-jp/dotnet/maui/ios/cli?view=net-maui-7.0)
 - [ ] [iOS 開発用に Mac とペアリングする](https://learn.microsoft.com/ja-jp/dotnet/maui/ios/pair-to-mac?view=net-maui-7.0)
-  #### 開発用にデバイスを設定する
+  ### 開発用にデバイスを設定する
   - [ ] [iOS アプリの自動プロビジョニング](https://learn.microsoft.com/ja-jp/dotnet/maui/ios/device-provisioning/?view=net-maui-7.0)
   - [ ] [iOS アプリの手動プロビジョニング](https://learn.microsoft.com/ja-jp/dotnet/maui/ios/device-provisioning/?view=net-maui-7.0)
   
-  #### シュミレーター
+  ### シュミレーター
   - [ ] [Windows 用のリモート iOS シミュレーターを有効にする](https://learn.microsoft.com/ja-jp/dotnet/maui/ios/remote-simulator?view=net-maui-7.0)
 
-### macOS
+## macOS
 - [ ] [.NET CLI を使用して Mac Catalyst アプリを構築する](https://learn.microsoft.com/ja-jp/dotnet/maui/macos/cli?view=net-maui-7.0)
 
-### Windows
+## Windows
 - [x] [Windows で .NET MAUI アプリをデプロイしてデバッグする](https://learn.microsoft.com/ja-jp/dotnet/maui/windows/setup?view=net-maui-7.0)
+
+# チュートリアル
+- [ ] [.NET MAUI アプリを作成する](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-app/?view=net-maui-7.0)
+- [ ] [MVVM の概念を使用してアプリをアップグレードする](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-mvvm/?view=net-maui-7.0)

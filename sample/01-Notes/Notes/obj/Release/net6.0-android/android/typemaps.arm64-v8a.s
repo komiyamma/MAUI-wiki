@@ -287,23 +287,12 @@ map_modules:
 	.zero	4
 	.xword	0x0	// java_map
 
-	.byte	0xb9, 0x96, 0xc4, 0xd7, 0x10, 0x3, 0x8c, 0x4b, 0xa3, 0x8a, 0xab, 0x30, 0xf4, 0x69, 0x39, 0x1d	// module_uuid: d7c496b9-0310-4b8c-a38a-ab30f469391d
-	.word	0x2	// entry_count
-	.word	0x0	// duplicate_count
-	.xword	.L.module22_managed_to_java	// map
-	.xword	0	// duplicate_map
-	.xword	map_aname.22	// assembly_name: Notes
-	.xword	0x0	// image
-	.word	0x0	// java_name_width
-	.zero	4
-	.xword	0x0	// java_map
-
 	.byte	0xbe, 0x7e, 0x28, 0xb5, 0x7b, 0x9d, 0x1b, 0x45, 0xb6, 0xbe, 0xb1, 0x6b, 0xd5, 0x0, 0xc0, 0x89	// module_uuid: b5287ebe-9d7b-451b-b6be-b16bd500c089
 	.word	0x1	// entry_count
 	.word	0x0	// duplicate_count
-	.xword	.L.module23_managed_to_java	// map
+	.xword	.L.module22_managed_to_java	// map
 	.xword	0	// duplicate_map
-	.xword	map_aname.23	// assembly_name: Xamarin.AndroidX.CardView
+	.xword	map_aname.22	// assembly_name: Xamarin.AndroidX.CardView
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -312,9 +301,9 @@ map_modules:
 	.byte	0xc2, 0x34, 0x7, 0x14, 0xfe, 0xd8, 0x7d, 0x4e, 0x8d, 0x8f, 0x9b, 0xda, 0x18, 0xb1, 0x79, 0xc6	// module_uuid: 140734c2-d8fe-4e7d-8d8f-9bda18b179c6
 	.word	0xa	// entry_count
 	.word	0x6	// duplicate_count
-	.xword	.L.module24_managed_to_java	// map
-	.xword	.L.module24_managed_to_java_duplicates	// duplicate_map
-	.xword	map_aname.24	// assembly_name: Xamarin.AndroidX.Activity
+	.xword	.L.module23_managed_to_java	// map
+	.xword	.L.module23_managed_to_java_duplicates	// duplicate_map
+	.xword	map_aname.23	// assembly_name: Xamarin.AndroidX.Activity
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -323,9 +312,9 @@ map_modules:
 	.byte	0xc2, 0x4d, 0x76, 0xb7, 0x25, 0xa5, 0xc5, 0x47, 0x95, 0x50, 0x55, 0xcf, 0x25, 0xd3, 0xc3, 0xe7	// module_uuid: b7764dc2-a525-47c5-9550-55cf25d3c3e7
 	.word	0x3	// entry_count
 	.word	0x0	// duplicate_count
-	.xword	.L.module25_managed_to_java	// map
+	.xword	.L.module24_managed_to_java	// map
 	.xword	0	// duplicate_map
-	.xword	map_aname.25	// assembly_name: Microsoft.Maui.Essentials
+	.xword	map_aname.24	// assembly_name: Microsoft.Maui.Essentials
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -334,9 +323,9 @@ map_modules:
 	.byte	0xcb, 0x1a, 0x85, 0x29, 0xb2, 0x58, 0x15, 0x48, 0xa3, 0xb, 0xa1, 0xd7, 0xcb, 0x78, 0x29, 0xb	// module_uuid: 29851acb-58b2-4815-a30b-a1d7cb78290b
 	.word	0x1	// entry_count
 	.word	0x0	// duplicate_count
-	.xword	.L.module26_managed_to_java	// map
+	.xword	.L.module25_managed_to_java	// map
 	.xword	0	// duplicate_map
-	.xword	map_aname.26	// assembly_name: Xamarin.AndroidX.Lifecycle.ViewModelSavedState
+	.xword	map_aname.25	// assembly_name: Xamarin.AndroidX.Lifecycle.ViewModelSavedState
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -345,9 +334,9 @@ map_modules:
 	.byte	0xd2, 0x28, 0x43, 0xb9, 0x2f, 0x16, 0xfa, 0x4f, 0xa8, 0x23, 0x9e, 0x10, 0xd9, 0xdc, 0x24, 0xf7	// module_uuid: b94328d2-162f-4ffa-a823-9e10d9dc24f7
 	.word	0x1	// entry_count
 	.word	0x0	// duplicate_count
-	.xword	.L.module27_managed_to_java	// map
+	.xword	.L.module26_managed_to_java	// map
 	.xword	0	// duplicate_map
-	.xword	map_aname.27	// assembly_name: Microsoft.Maui.Graphics
+	.xword	map_aname.26	// assembly_name: Microsoft.Maui.Graphics
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -356,9 +345,9 @@ map_modules:
 	.byte	0xd2, 0x54, 0xde, 0x5, 0x40, 0xd, 0xf7, 0x43, 0x92, 0xd0, 0xd3, 0x87, 0x8e, 0x5d, 0xef, 0xb3	// module_uuid: 05de54d2-0d40-43f7-92d0-d3878e5defb3
 	.word	0x1	// entry_count
 	.word	0x1	// duplicate_count
-	.xword	.L.module28_managed_to_java	// map
-	.xword	.L.module28_managed_to_java_duplicates	// duplicate_map
-	.xword	map_aname.28	// assembly_name: Xamarin.AndroidX.CursorAdapter
+	.xword	.L.module27_managed_to_java	// map
+	.xword	.L.module27_managed_to_java_duplicates	// duplicate_map
+	.xword	map_aname.27	// assembly_name: Xamarin.AndroidX.CursorAdapter
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -367,9 +356,9 @@ map_modules:
 	.byte	0xd3, 0xff, 0xde, 0x54, 0x8c, 0x81, 0x19, 0x41, 0xb7, 0x86, 0xac, 0xb3, 0x2e, 0x67, 0x30, 0x1c	// module_uuid: 54deffd3-818c-4119-b786-acb32e67301c
 	.word	0x1	// entry_count
 	.word	0x1	// duplicate_count
-	.xword	.L.module29_managed_to_java	// map
-	.xword	.L.module29_managed_to_java_duplicates	// duplicate_map
-	.xword	map_aname.29	// assembly_name: Xamarin.AndroidX.CustomView
+	.xword	.L.module28_managed_to_java	// map
+	.xword	.L.module28_managed_to_java_duplicates	// duplicate_map
+	.xword	map_aname.28	// assembly_name: Xamarin.AndroidX.CustomView
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -378,9 +367,9 @@ map_modules:
 	.byte	0xd6, 0x94, 0x99, 0x6c, 0x1f, 0x2, 0xd6, 0x41, 0xb6, 0xb7, 0xbd, 0x1c, 0x3d, 0x25, 0x34, 0x30	// module_uuid: 6c9994d6-021f-41d6-b6b7-bd1c3d253430
 	.word	0x2	// entry_count
 	.word	0x1	// duplicate_count
-	.xword	.L.module30_managed_to_java	// map
-	.xword	.L.module30_managed_to_java_duplicates	// duplicate_map
-	.xword	map_aname.30	// assembly_name: Xamarin.AndroidX.SavedState
+	.xword	.L.module29_managed_to_java	// map
+	.xword	.L.module29_managed_to_java_duplicates	// duplicate_map
+	.xword	map_aname.29	// assembly_name: Xamarin.AndroidX.SavedState
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -389,9 +378,9 @@ map_modules:
 	.byte	0xd6, 0xee, 0x7e, 0x31, 0x3, 0xe5, 0x28, 0x41, 0xba, 0xe3, 0x7, 0xab, 0x8b, 0x50, 0x94, 0x74	// module_uuid: 317eeed6-e503-4128-bae3-07ab8b509474
 	.word	0x6d	// entry_count
 	.word	0x0	// duplicate_count
-	.xword	.L.module31_managed_to_java	// map
+	.xword	.L.module30_managed_to_java	// map
 	.xword	0	// duplicate_map
-	.xword	map_aname.31	// assembly_name: Microsoft.Maui.Controls
+	.xword	map_aname.30	// assembly_name: Microsoft.Maui.Controls
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -400,9 +389,9 @@ map_modules:
 	.byte	0xe2, 0x1, 0xac, 0xbb, 0x38, 0x60, 0x6a, 0x4f, 0x95, 0x6c, 0xae, 0x83, 0x4e, 0x8, 0xa1, 0xd4	// module_uuid: bbac01e2-6038-4f6a-956c-ae834e08a1d4
 	.word	0x7	// entry_count
 	.word	0x4	// duplicate_count
-	.xword	.L.module32_managed_to_java	// map
-	.xword	.L.module32_managed_to_java_duplicates	// duplicate_map
-	.xword	map_aname.32	// assembly_name: Xamarin.AndroidX.ViewPager
+	.xword	.L.module31_managed_to_java	// map
+	.xword	.L.module31_managed_to_java_duplicates	// duplicate_map
+	.xword	map_aname.31	// assembly_name: Xamarin.AndroidX.ViewPager
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -411,9 +400,9 @@ map_modules:
 	.byte	0xe4, 0x71, 0x5d, 0x3f, 0xfd, 0xf9, 0x4d, 0x4e, 0x89, 0xaa, 0x11, 0x90, 0x44, 0x8, 0xaa, 0x19	// module_uuid: 3f5d71e4-f9fd-4e4d-89aa-11904408aa19
 	.word	0x3	// entry_count
 	.word	0x0	// duplicate_count
-	.xword	.L.module33_managed_to_java	// map
+	.xword	.L.module32_managed_to_java	// map
 	.xword	0	// duplicate_map
-	.xword	map_aname.33	// assembly_name: Xamarin.AndroidX.Navigation.Fragment
+	.xword	map_aname.32	// assembly_name: Xamarin.AndroidX.Navigation.Fragment
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -422,9 +411,20 @@ map_modules:
 	.byte	0xe4, 0x77, 0x63, 0x10, 0xec, 0x9c, 0x6b, 0x41, 0x80, 0x5c, 0xd, 0xc, 0x45, 0xf5, 0x3d, 0xe1	// module_uuid: 106377e4-9cec-416b-805c-0d0c45f53de1
 	.word	0x6	// entry_count
 	.word	0x1	// duplicate_count
+	.xword	.L.module33_managed_to_java	// map
+	.xword	.L.module33_managed_to_java_duplicates	// duplicate_map
+	.xword	map_aname.33	// assembly_name: Xamarin.AndroidX.Navigation.Runtime
+	.xword	0x0	// image
+	.word	0x0	// java_name_width
+	.zero	4
+	.xword	0x0	// java_map
+
+	.byte	0xed, 0x2a, 0x36, 0xd0, 0x40, 0xc, 0xc7, 0x45, 0xb4, 0x6c, 0x25, 0xf1, 0xfa, 0x5c, 0x10, 0xe8	// module_uuid: d0362aed-0c40-45c7-b46c-25f1fa5c10e8
+	.word	0x2	// entry_count
+	.word	0x0	// duplicate_count
 	.xword	.L.module34_managed_to_java	// map
-	.xword	.L.module34_managed_to_java_duplicates	// duplicate_map
-	.xword	map_aname.34	// assembly_name: Xamarin.AndroidX.Navigation.Runtime
+	.xword	0	// duplicate_map
+	.xword	map_aname.34	// assembly_name: Notes
 	.xword	0x0	// image
 	.word	0x0	// java_name_width
 	.zero	4
@@ -2301,55 +2301,55 @@ map_java:
 	.zero	78	// byteCount == 25; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x18	// module_index
+	.word	0x17	// module_index
 	.word	0x2000009	// type_token_id
 	.ascii	"androidx/activity/ComponentActivity"	// java_name
 	.zero	68	// byteCount == 35; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x18	// module_index
+	.word	0x17	// module_index
 	.word	0x200000c	// type_token_id
 	.ascii	"androidx/activity/OnBackPressedCallback"	// java_name
 	.zero	64	// byteCount == 39; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x18	// module_index
+	.word	0x17	// module_index
 	.word	0x200000e	// type_token_id
 	.ascii	"androidx/activity/OnBackPressedDispatcher"	// java_name
 	.zero	62	// byteCount == 41; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x18	// module_index
+	.word	0x17	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"androidx/activity/contextaware/OnContextAvailableListener"	// java_name
 	.zero	46	// byteCount == 57; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x18	// module_index
+	.word	0x17	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"androidx/activity/result/ActivityResultCallback"	// java_name
 	.zero	56	// byteCount == 47; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x18	// module_index
+	.word	0x17	// module_index
 	.word	0x2000013	// type_token_id
 	.ascii	"androidx/activity/result/ActivityResultLauncher"	// java_name
 	.zero	56	// byteCount == 47; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x18	// module_index
+	.word	0x17	// module_index
 	.word	0x2000015	// type_token_id
 	.ascii	"androidx/activity/result/ActivityResultRegistry"	// java_name
 	.zero	56	// byteCount == 47; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x18	// module_index
+	.word	0x17	// module_index
 	.word	0x200001a	// type_token_id
 	.ascii	"androidx/activity/result/contract/ActivityResultContract"	// java_name
 	.zero	47	// byteCount == 56; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x18	// module_index
+	.word	0x17	// module_index
 	.word	0x200001b	// type_token_id
 	.ascii	"androidx/activity/result/contract/ActivityResultContract$SynchronousResult"	// java_name
 	.zero	29	// byteCount == 74; fixedWidth == 103; returned size == 103
@@ -2667,7 +2667,7 @@ map_java:
 	.zero	37	// byteCount == 66; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x17	// module_index
+	.word	0x16	// module_index
 	.word	0x200000b	// type_token_id
 	.ascii	"androidx/cardview/widget/CardView"	// java_name
 	.zero	70	// byteCount == 33; fixedWidth == 103; returned size == 103
@@ -3033,13 +3033,13 @@ map_java:
 	.zero	68	// byteCount == 35; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1c	// module_index
+	.word	0x1b	// module_index
 	.word	0x200000d	// type_token_id
 	.ascii	"androidx/cursoradapter/widget/CursorAdapter"	// java_name
 	.zero	60	// byteCount == 43; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1d	// module_index
+	.word	0x1c	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"androidx/customview/widget/Openable"	// java_name
 	.zero	68	// byteCount == 35; fixedWidth == 103; returned size == 103
@@ -3213,7 +3213,7 @@ map_java:
 	.zero	76	// byteCount == 27; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1a	// module_index
+	.word	0x19	// module_index
 	.word	0x2000002	// type_token_id
 	.ascii	"androidx/lifecycle/SavedStateHandle"	// java_name
 	.zero	68	// byteCount == 35; fixedWidth == 103; returned size == 103
@@ -3291,13 +3291,13 @@ map_java:
 	.zero	66	// byteCount == 37; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x22	// module_index
+	.word	0x21	// module_index
 	.word	0x2000010	// type_token_id
 	.ascii	"androidx/navigation/NavController"	// java_name
 	.zero	70	// byteCount == 33; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x22	// module_index
+	.word	0x21	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"androidx/navigation/NavController$OnDestinationChangedListener"	// java_name
 	.zero	41	// byteCount == 62; fixedWidth == 103; returned size == 103
@@ -3309,7 +3309,7 @@ map_java:
 	.zero	72	// byteCount == 31; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x22	// module_index
+	.word	0x21	// module_index
 	.word	0x2000017	// type_token_id
 	.ascii	"androidx/navigation/NavDeepLinkBuilder"	// java_name
 	.zero	65	// byteCount == 38; fixedWidth == 103; returned size == 103
@@ -3351,13 +3351,13 @@ map_java:
 	.zero	66	// byteCount == 37; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x22	// module_index
+	.word	0x21	// module_index
 	.word	0x2000018	// type_token_id
 	.ascii	"androidx/navigation/NavHostController"	// java_name
 	.zero	66	// byteCount == 37; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x22	// module_index
+	.word	0x21	// module_index
 	.word	0x2000019	// type_token_id
 	.ascii	"androidx/navigation/NavInflater"	// java_name
 	.zero	72	// byteCount == 31; fixedWidth == 103; returned size == 103
@@ -3405,19 +3405,19 @@ map_java:
 	.zero	69	// byteCount == 34; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x21	// module_index
+	.word	0x20	// module_index
 	.word	0x2000006	// type_token_id
 	.ascii	"androidx/navigation/fragment/FragmentNavigator"	// java_name
 	.zero	57	// byteCount == 46; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x21	// module_index
+	.word	0x20	// module_index
 	.word	0x2000007	// type_token_id
 	.ascii	"androidx/navigation/fragment/FragmentNavigator$Destination"	// java_name
 	.zero	45	// byteCount == 58; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x21	// module_index
+	.word	0x20	// module_index
 	.word	0x2000008	// type_token_id
 	.ascii	"androidx/navigation/fragment/NavHostFragment"	// java_name
 	.zero	59	// byteCount == 44; fixedWidth == 103; returned size == 103
@@ -3675,13 +3675,13 @@ map_java:
 	.zero	64	// byteCount == 39; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1e	// module_index
+	.word	0x1d	// module_index
 	.word	0x2000003	// type_token_id
 	.ascii	"androidx/savedstate/SavedStateRegistry"	// java_name
 	.zero	65	// byteCount == 38; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1e	// module_index
+	.word	0x1d	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"androidx/savedstate/SavedStateRegistry$SavedStateProvider"	// java_name
 	.zero	46	// byteCount == 57; fixedWidth == 103; returned size == 103
@@ -3705,31 +3705,31 @@ map_java:
 	.zero	32	// byteCount == 71; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x20	// module_index
+	.word	0x1f	// module_index
 	.word	0x200001b	// type_token_id
 	.ascii	"androidx/viewpager/widget/PagerAdapter"	// java_name
 	.zero	65	// byteCount == 38; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x20	// module_index
+	.word	0x1f	// module_index
 	.word	0x200001d	// type_token_id
 	.ascii	"androidx/viewpager/widget/ViewPager"	// java_name
 	.zero	68	// byteCount == 35; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x20	// module_index
+	.word	0x1f	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"androidx/viewpager/widget/ViewPager$OnAdapterChangeListener"	// java_name
 	.zero	44	// byteCount == 59; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x20	// module_index
+	.word	0x1f	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"androidx/viewpager/widget/ViewPager$OnPageChangeListener"	// java_name
 	.zero	47	// byteCount == 56; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x20	// module_index
+	.word	0x1f	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"androidx/viewpager/widget/ViewPager$PageTransformer"	// java_name
 	.zero	52	// byteCount == 51; fixedWidth == 103; returned size == 103
@@ -4101,301 +4101,301 @@ map_java:
 	.zero	69	// byteCount == 34; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x19	// module_index
+	.word	0x18	// module_index
 	.word	0x200003c	// type_token_id
 	.ascii	"crc640a8d9a12ddbf2cf2/DeviceDisplayImplementation_Listener"	// java_name
 	.zero	45	// byteCount == 58; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x19	// module_index
+	.word	0x18	// module_index
 	.word	0x2000046	// type_token_id
 	.ascii	"crc640a8d9a12ddbf2cf2/EnergySaverBroadcastReceiver"	// java_name
 	.zero	53	// byteCount == 50; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000312	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ContainerView"	// java_name
 	.zero	68	// byteCount == 35; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000313	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/CustomFrameLayout"	// java_name
 	.zero	64	// byteCount == 39; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000327	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/RecyclerViewContainer"	// java_name
 	.zero	60	// byteCount == 43; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000328	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ScrollLayoutManager"	// java_name
 	.zero	62	// byteCount == 41; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000321	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellContentFragment"	// java_name
 	.zero	61	// byteCount == 42; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000323	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellFlyoutLayout"	// java_name
 	.zero	64	// byteCount == 39; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000324	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellFlyoutRecyclerAdapter"	// java_name
 	.zero	55	// byteCount == 48; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200052e	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellFlyoutRecyclerAdapter_ElementViewHolder"	// java_name
 	.zero	37	// byteCount == 66; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200052c	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellFlyoutRecyclerAdapter_ShellLinearLayout"	// java_name
 	.zero	37	// byteCount == 66; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000325	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellFlyoutRenderer"	// java_name
 	.zero	62	// byteCount == 41; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000326	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellFlyoutTemplatedContentRenderer"	// java_name
 	.zero	46	// byteCount == 57; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200052f	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellFlyoutTemplatedContentRenderer_HeaderContainer"	// java_name
 	.zero	30	// byteCount == 73; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000329	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellFragmentContainer"	// java_name
 	.zero	59	// byteCount == 44; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200032a	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellFragmentStateAdapter"	// java_name
 	.zero	56	// byteCount == 47; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200032b	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellItemRenderer"	// java_name
 	.zero	64	// byteCount == 39; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200032c	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellItemRendererBase"	// java_name
 	.zero	60	// byteCount == 43; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200032d	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellPageContainer"	// java_name
 	.zero	63	// byteCount == 40; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200032e	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellSearchView"	// java_name
 	.zero	66	// byteCount == 37; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200032f	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellSearchViewAdapter"	// java_name
 	.zero	59	// byteCount == 44; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000539	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellSearchViewAdapter_CustomFilter"	// java_name
 	.zero	46	// byteCount == 57; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200053a	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellSearchViewAdapter_ObjectWrapper"	// java_name
 	.zero	45	// byteCount == 58; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000536	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellSearchView_ClipDrawableWrapper"	// java_name
 	.zero	46	// byteCount == 57; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000330	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellSectionRenderer"	// java_name
 	.zero	61	// byteCount == 42; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200053b	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellSectionRenderer_ViewPagerPageChanged"	// java_name
 	.zero	40	// byteCount == 63; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000333	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellToolbarTracker"	// java_name
 	.zero	62	// byteCount == 41; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200053e	// type_token_id
 	.ascii	"crc640ec207abc449b2ca/ShellToolbarTracker_FlyoutIconDrawerDrawable"	// java_name
 	.zero	37	// byteCount == 66; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x20002e5	// type_token_id
 	.ascii	"crc64338477404e88479c/ColorChangeRevealDrawable"	// java_name
 	.zero	56	// byteCount == 47; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x20002e6	// type_token_id
 	.ascii	"crc64338477404e88479c/ControlsAccessibilityDelegate"	// java_name
 	.zero	52	// byteCount == 51; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x20002e7	// type_token_id
 	.ascii	"crc64338477404e88479c/DragAndDropGestureHandler"	// java_name
 	.zero	56	// byteCount == 47; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000514	// type_token_id
 	.ascii	"crc64338477404e88479c/DragAndDropGestureHandler_CustomLocalStateData"	// java_name
 	.zero	35	// byteCount == 68; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000519	// type_token_id
 	.ascii	"crc64338477404e88479c/FormattedStringExtensions_FontSpan"	// java_name
 	.zero	47	// byteCount == 56; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200051a	// type_token_id
 	.ascii	"crc64338477404e88479c/FormattedStringExtensions_LetterSpacingSpan"	// java_name
 	.zero	38	// byteCount == 65; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200051b	// type_token_id
 	.ascii	"crc64338477404e88479c/FormattedStringExtensions_LineHeightSpan"	// java_name
 	.zero	41	// byteCount == 62; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x20002f7	// type_token_id
 	.ascii	"crc64338477404e88479c/FragmentContainer"	// java_name
 	.zero	64	// byteCount == 39; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x20002f8	// type_token_id
 	.ascii	"crc64338477404e88479c/GenericAnimatorListener"	// java_name
 	.zero	58	// byteCount == 45; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x20002f9	// type_token_id
 	.ascii	"crc64338477404e88479c/GenericGlobalLayoutListener"	// java_name
 	.zero	54	// byteCount == 49; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x20002fa	// type_token_id
 	.ascii	"crc64338477404e88479c/GenericMenuClickListener"	// java_name
 	.zero	57	// byteCount == 46; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x20002fb	// type_token_id
 	.ascii	"crc64338477404e88479c/GradientStrokeDrawable"	// java_name
 	.zero	59	// byteCount == 44; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000522	// type_token_id
 	.ascii	"crc64338477404e88479c/GradientStrokeDrawable_GradientShaderFactory"	// java_name
 	.zero	37	// byteCount == 66; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x20002fe	// type_token_id
 	.ascii	"crc64338477404e88479c/InnerGestureListener"	// java_name
 	.zero	61	// byteCount == 42; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x20002ff	// type_token_id
 	.ascii	"crc64338477404e88479c/InnerScaleListener"	// java_name
 	.zero	63	// byteCount == 40; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000302	// type_token_id
 	.ascii	"crc64338477404e88479c/MauiViewPager"	// java_name
 	.zero	68	// byteCount == 35; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000528	// type_token_id
 	.ascii	"crc64338477404e88479c/ModalNavigationManager_ModalContainer"	// java_name
 	.zero	44	// byteCount == 59; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x20005c0	// type_token_id
 	.ascii	"crc64338477404e88479c/ModalNavigationManager_ModalContainer_ModalFragment"	// java_name
 	.zero	30	// byteCount == 73; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"crc64338477404e88479c/MultiPageFragmentStateAdapter_1"	// java_name
 	.zero	50	// byteCount == 53; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000307	// type_token_id
 	.ascii	"crc64338477404e88479c/TapAndPanGestureDetector"	// java_name
 	.zero	57	// byteCount == 46; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200051c	// type_token_id
 	.ascii	"crc64338477404e88479c/ToolbarExtensions_ToolbarTitleIconImageView"	// java_name
 	.zero	38	// byteCount == 65; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1b	// module_index
+	.word	0x1a	// module_index
 	.word	0x2000082	// type_token_id
 	.ascii	"crc643f2b18b2570eaa5a/PlatformGraphicsView"	// java_name
 	.zero	61	// byteCount == 42; fixedWidth == 103; returned size == 103
@@ -4629,205 +4629,205 @@ map_java:
 	.zero	70	// byteCount == 33; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000343	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/CarouselSpacingItemDecoration"	// java_name
 	.zero	52	// byteCount == 51; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/CarouselViewAdapter_2"	// java_name
 	.zero	60	// byteCount == 43; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000345	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/CarouselViewOnScrollListener"	// java_name
 	.zero	53	// byteCount == 50; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000358	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/CarouselViewwOnGlobalLayoutListener"	// java_name
 	.zero	46	// byteCount == 57; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000362	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/CenterSnapHelper"	// java_name
 	.zero	65	// byteCount == 38; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000346	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/DataChangeObserver"	// java_name
 	.zero	63	// byteCount == 40; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000363	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/EdgeSnapHelper"	// java_name
 	.zero	67	// byteCount == 36; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200033d	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/EmptyViewAdapter"	// java_name
 	.zero	65	// byteCount == 38; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000364	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/EndSingleSnapHelper"	// java_name
 	.zero	62	// byteCount == 41; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000365	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/EndSnapHelper"	// java_name
 	.zero	68	// byteCount == 35; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000347	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/GridLayoutSpanSizeLookup"	// java_name
 	.zero	57	// byteCount == 46; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/GroupableItemsViewAdapter_2"	// java_name
 	.zero	54	// byteCount == 49; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200034b	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/ItemContentView"	// java_name
 	.zero	66	// byteCount == 37; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/ItemsViewAdapter_2"	// java_name
 	.zero	63	// byteCount == 40; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000357	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/MauiCarouselRecyclerView"	// java_name
 	.zero	57	// byteCount == 46; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/MauiRecyclerView_3"	// java_name
 	.zero	63	// byteCount == 40; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000366	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/NongreedySnapHelper"	// java_name
 	.zero	62	// byteCount == 41; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200054d	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/NongreedySnapHelper_InitialScrollListener"	// java_name
 	.zero	40	// byteCount == 63; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200035a	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/PositionalSmoothScroller"	// java_name
 	.zero	57	// byteCount == 46; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/RecyclerViewScrollListener_2"	// java_name
 	.zero	53	// byteCount == 50; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/ReorderableItemsViewAdapter_2"	// java_name
 	.zero	52	// byteCount == 51; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200035d	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/ScrollHelper"	// java_name
 	.zero	69	// byteCount == 34; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/SelectableItemsViewAdapter_2"	// java_name
 	.zero	53	// byteCount == 50; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200035e	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/SelectableViewHolder"	// java_name
 	.zero	61	// byteCount == 42; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200035f	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/SimpleItemTouchHelperCallback"	// java_name
 	.zero	52	// byteCount == 51; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000360	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/SimpleViewHolder"	// java_name
 	.zero	65	// byteCount == 38; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000367	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/SingleSnapHelper"	// java_name
 	.zero	65	// byteCount == 38; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000361	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/SizedItemContentView"	// java_name
 	.zero	61	// byteCount == 42; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200036b	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/SpacingItemDecoration"	// java_name
 	.zero	60	// byteCount == 43; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000369	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/StartSingleSnapHelper"	// java_name
 	.zero	60	// byteCount == 43; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200036a	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/StartSnapHelper"	// java_name
 	.zero	66	// byteCount == 37; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/StructuredItemsViewAdapter_2"	// java_name
 	.zero	53	// byteCount == 50; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200036c	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/TemplatedItemViewHolder"	// java_name
 	.zero	58	// byteCount == 45; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200036e	// type_token_id
 	.ascii	"crc645d80431ce5f73f11/TextViewHolder"	// java_name
 	.zero	67	// byteCount == 36; fixedWidth == 103; returned size == 103
@@ -4911,25 +4911,25 @@ map_java:
 	.zero	39	// byteCount == 64; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000543	// type_token_id
 	.ascii	"crc649ff77a65592e7d55/TabbedPageManager_Listeners"	// java_name
 	.zero	54	// byteCount == 49; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000542	// type_token_id
 	.ascii	"crc649ff77a65592e7d55/TabbedPageManager_TempView"	// java_name
 	.zero	55	// byteCount == 48; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x16	// module_index
+	.word	0x22	// module_index
 	.word	0x200000b	// type_token_id
 	.ascii	"crc64a40343abac877f5d/MainActivity"	// java_name
 	.zero	69	// byteCount == 34; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x16	// module_index
+	.word	0x22	// module_index
 	.word	0x200000c	// type_token_id
 	.ascii	"crc64a40343abac877f5d/MainApplication"	// java_name
 	.zero	66	// byteCount == 37; fixedWidth == 103; returned size == 103
@@ -4953,163 +4953,163 @@ map_java:
 	.zero	54	// byteCount == 49; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x19	// module_index
+	.word	0x18	// module_index
 	.word	0x2000032	// type_token_id
 	.ascii	"crc64ba438d8f48cf7e75/ActivityLifecycleContextListener"	// java_name
 	.zero	49	// byteCount == 54; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200037a	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/BaseCellView"	// java_name
 	.zero	69	// byteCount == 34; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200037b	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/CellAdapter"	// java_name
 	.zero	70	// byteCount == 33; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000550	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/CellRenderer_RendererHolder"	// java_name
 	.zero	54	// byteCount == 49; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200037e	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/ConditionalFocusLayout"	// java_name
 	.zero	59	// byteCount == 44; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200037f	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/EntryCellEditText"	// java_name
 	.zero	64	// byteCount == 39; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000381	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/EntryCellView"	// java_name
 	.zero	68	// byteCount == 35; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000376	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/FrameRenderer"	// java_name
 	.zero	68	// byteCount == 35; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000382	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/GroupedListViewAdapter"	// java_name
 	.zero	59	// byteCount == 44; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000384	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/ListViewAdapter"	// java_name
 	.zero	66	// byteCount == 37; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000385	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/ListViewRenderer"	// java_name
 	.zero	65	// byteCount == 38; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000555	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/ListViewRenderer_Container"	// java_name
 	.zero	55	// byteCount == 48; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000558	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/ListViewRenderer_ListViewScrollDetector"	// java_name
 	.zero	42	// byteCount == 61; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000557	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/ListViewRenderer_ListViewSwipeRefreshLayoutListener"	// java_name
 	.zero	30	// byteCount == 73; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000556	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/ListViewRenderer_SwipeRefreshLayoutWithFixedNestedScrolling"	// java_name
 	.zero	22	// byteCount == 81; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200055c	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/ShellRenderer_SplitDrawable"	// java_name
 	.zero	54	// byteCount == 49; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000387	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/SwitchCellView"	// java_name
 	.zero	67	// byteCount == 36; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200038b	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/TableViewModelRenderer"	// java_name
 	.zero	59	// byteCount == 44; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200038c	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/TableViewRenderer"	// java_name
 	.zero	64	// byteCount == 39; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200055a	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/TextCellRenderer_TextCellView"	// java_name
 	.zero	52	// byteCount == 51; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x200055b	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/ViewCellRenderer_ViewCellContainer"	// java_name
 	.zero	47	// byteCount == 56; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x20005c3	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/ViewCellRenderer_ViewCellContainer_LongPressGestureListener"	// java_name
 	.zero	22	// byteCount == 81; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x20005c2	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/ViewCellRenderer_ViewCellContainer_TapGestureListener"	// java_name
 	.zero	28	// byteCount == 75; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000377	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/ViewRenderer"	// java_name
 	.zero	69	// byteCount == 34; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/ViewRenderer_2"	// java_name
 	.zero	67	// byteCount == 36; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x0	// type_token_id
 	.ascii	"crc64e1fb321c08285b90/VisualElementRenderer_1"	// java_name
 	.zero	58	// byteCount == 45; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x1f	// module_index
+	.word	0x1e	// module_index
 	.word	0x2000471	// type_token_id
 	.ascii	"crc64f728827fec74e9c3/Toolbar_Container"	// java_name
 	.zero	64	// byteCount == 39; fixedWidth == 103; returned size == 103
@@ -5943,7 +5943,7 @@ map_java:
 	.zero	41	// byteCount == 62; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x18	// module_index
+	.word	0x17	// module_index
 	.word	0x2000012	// type_token_id
 	.ascii	"mono/androidx/activity/contextaware/OnContextAvailableListenerImplementor"	// java_name
 	.zero	30	// byteCount == 73; fixedWidth == 103; returned size == 103
@@ -6021,7 +6021,7 @@ map_java:
 	.zero	41	// byteCount == 62; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x22	// module_index
+	.word	0x21	// module_index
 	.word	0x2000014	// type_token_id
 	.ascii	"mono/androidx/navigation/NavController_OnDestinationChangedListenerImplementor"	// java_name
 	.zero	25	// byteCount == 78; fixedWidth == 103; returned size == 103
@@ -6051,13 +6051,13 @@ map_java:
 	.zero	16	// byteCount == 87; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x20	// module_index
+	.word	0x1f	// module_index
 	.word	0x2000021	// type_token_id
 	.ascii	"mono/androidx/viewpager/widget/ViewPager_OnAdapterChangeListenerImplementor"	// java_name
 	.zero	28	// byteCount == 75; fixedWidth == 103; returned size == 103
 	.zero	1
 
-	.word	0x20	// module_index
+	.word	0x1f	// module_index
 	.word	0x2000027	// type_token_id
 	.ascii	"mono/androidx/viewpager/widget/ViewPager_OnPageChangeListenerImplementor"	// java_name
 	.zero	31	// byteCount == 72; fixedWidth == 103; returned size == 103

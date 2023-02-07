@@ -65,4 +65,6 @@
   - [x] [主なファイル構成の概要](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-app/?view=net-maui-7.0&tutorial-step=2)
   - [x] [ページの追加、タブの追加](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-app/?view=net-maui-7.0&tutorial-step=2)
   - [x] [メモのページを作成する](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-app/?view=net-maui-7.0&tutorial-step=3)
-- [ ] [MVVM の概念を使用してアプリをアップグレードする](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-mvvm/?view=net-maui-7.0)
+  - [x] [UI にデータをバインドし、ページ間を移動する](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-app/?view=net-maui-7.0&tutorial-step=4)
+- [x] [MVVM の概念を使用してアプリをアップグレードする](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-mvvm/?view=net-maui-7.0)
+- [x] [MVVM について](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-mvvm/?view=net-maui-7.0&tutorial-step=2)

@@ -1,1 +1,0 @@
-G:\repogitory\maui_wiki\sample\01-Notes\Notes\Notes.csproj;x64

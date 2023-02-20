@@ -70,3 +70,6 @@
 - [x] [MVVM の概念を使用してアプリをアップグレードする](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-mvvm/?view=net-maui-7.0)
 - [x] [MVVM について](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-mvvm/?view=net-maui-7.0&tutorial-step=2)
   - [ ] [MVVM ツールキットの概要](https://learn.microsoft.com/ja-jp/dotnet/communitytoolkit/mvvm/)
+
+# XAML
+- [ ] [概要](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/?view=net-maui-7.0)

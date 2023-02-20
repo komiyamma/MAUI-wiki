@@ -17,6 +17,7 @@
 
 - [x] [インストール](https://learn.microsoft.com/ja-jp/dotnet/maui/get-started/installation?view=net-maui-7.0&tabs=vswin)
 - [x] [最初のアプリをビルドする](https://learn.microsoft.com/ja-jp/dotnet/maui/get-started/first-app?pivots=devices-windows&view=net-maui-7.0&tabs=vswin)
+  - ディレクトリ名に「全角」などASCII以外の文字列が入らないようにすること。全角等を入れると.NETのAndroidのSDKがエラーを出す。
 
 - [x] [学習用のリソース](https://learn.microsoft.com/ja-jp/dotnet/maui/get-started/resources?view=net-maui-7.0)
   - [ ] [.NET MAUI を使用してモバイルおよびデスクトップ アプリを構築する](https://learn.microsoft.com/ja-jp/training/paths/build-apps-with-dotnet-maui/)
@@ -68,3 +69,4 @@
   - [x] [UI にデータをバインドし、ページ間を移動する](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-app/?view=net-maui-7.0&tutorial-step=4)
 - [x] [MVVM の概念を使用してアプリをアップグレードする](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-mvvm/?view=net-maui-7.0)
 - [x] [MVVM について](https://learn.microsoft.com/ja-jp/dotnet/maui/tutorials/notes-mvvm/?view=net-maui-7.0&tutorial-step=2)
+  - [ ] [MVVM ツールキットの概要](https://learn.microsoft.com/ja-jp/dotnet/communitytoolkit/mvvm/)

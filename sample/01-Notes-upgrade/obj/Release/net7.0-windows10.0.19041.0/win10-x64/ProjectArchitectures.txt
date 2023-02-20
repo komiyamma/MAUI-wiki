@@ -1,0 +1,1 @@
+G:\repogitory\MAUI-wiki\sample\01-Notes-upgrade\Notes.csproj;x64

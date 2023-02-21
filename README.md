@@ -72,4 +72,5 @@
   - [ ] [MVVM ツールキットの概要](https://learn.microsoft.com/ja-jp/dotnet/communitytoolkit/mvvm/)
 
 # XAML
-- [ ] [概要](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/?view=net-maui-7.0)
+- [x] [概要](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/?view=net-maui-7.0)
+  - [x] [はじめに](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/fundamentals/get-started?view=net-maui-7.0)

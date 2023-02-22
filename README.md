@@ -75,4 +75,4 @@
 - [x] [概要](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/?view=net-maui-7.0)
   - [x] [はじめに](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/fundamentals/get-started?view=net-maui-7.0)
   - [x] [基本的な XAML 構文](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/fundamentals/essential-syntax?view=net-maui-7.0)
-    - On Platformのところは、Android/iOS/WinUI/MacCatalyst/Tizen
+    - On Platformのところは、[ Android | iOS | WinUI | MacCatalyst | Tizen ]

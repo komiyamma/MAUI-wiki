@@ -76,3 +76,5 @@
   - [x] [はじめに](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/fundamentals/get-started?view=net-maui-7.0)
   - [x] [基本的な XAML 構文](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/fundamentals/essential-syntax?view=net-maui-7.0)
     - On Platformのところは、「Android｜iOS｜WinUI｜MacCatalyst｜Tizen」
+  - [x] [XAML マークアップ拡張](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/fundamentals/markup-extensions?view=net-maui-7.0)
+    - XAML内での共有リソース定義と参照

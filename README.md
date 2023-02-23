@@ -78,3 +78,12 @@
     - On Platformのところは、「Android｜iOS｜WinUI｜MacCatalyst｜Tizen」
   - [x] [XAML マークアップ拡張](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/fundamentals/markup-extensions?view=net-maui-7.0)
     - XAML内での共有リソース定義と参照
+  - [ ] [データ バインディングの基本](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/fundamentals/data-binding-basics?view=net-maui-7.0)
+    - ソースはデータ提供側、ターゲットは利用側
+    - バインディングモード
+      - Default
+      - OneWay — 値はソースからターゲットに転送されます
+      - OneWayToSource — 値はターゲットからソースに転送されます
+      - TwoWay — 値はソースとターゲットの間で両方の方法で転送されます
+      - OneTime — データはソースからターゲットに移動しますが、変更された BindingContext 場合のみ
+

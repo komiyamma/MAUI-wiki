@@ -87,6 +87,9 @@
       - TwoWay — 値はソースとターゲットの間で両方の方法で転送されます
       - OneTime — データはソースからターゲットに移動しますが、変更された BindingContext 場合のみ
 
-  - [ ] [データ バインディングと MVVM](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/fundamentals/mvvm?view=net-maui-7.0)
+  - [x] [データ バインディングと MVVM](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/fundamentals/mvvm?view=net-maui-7.0)
     - [x] [シンプルな MVVM](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/fundamentals/mvvm?view=net-maui-7.0#simple-mvvm)
-    - [ ] 
+    - [x] [対話型 MVVM](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/fundamentals/mvvm?view=net-maui-7.0#interactive-mvvm)
+    - [x] [コマンド実行](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/fundamentals/mvvm?view=net-maui-7.0#commanding)
+
+  - [x] [フィールド修飾子](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/field-modifiers?view=net-maui-7.0)

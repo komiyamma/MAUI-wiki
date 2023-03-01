@@ -95,5 +95,5 @@
   - [x] [フィールド修飾子](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/field-modifiers?view=net-maui-7.0)
   - [x] [ジェネリック](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/generics?view=net-maui-7.0)
   - [ ] [XAML マークアップ拡張機能を使用する](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/markup-extensions/consume?view=net-maui-7.0)
-    - [x] [x:Static](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/markup-extensions/consume?view=net-maui-7.0#xstatic-markup-extension)
+    - [x] [x:Static C#のstatic値を参照](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/markup-extensions/consume?view=net-maui-7.0#xstatic-markup-extension)
     - [ ] [x:Reference](https://learn.microsoft.com/ja-jp/dotnet/maui/xaml/markup-extensions/consume?view=net-maui-7.0#xreference-markup-extension)
